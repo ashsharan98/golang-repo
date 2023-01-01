@@ -2,11 +2,11 @@ package main
 
 import "fmt"
 
-// import "model"
+import "mygolang/model"
 
 func main() {
 	var abc = 10
 	fmt.Println(abc)
 	fmt.Println(lmn)
-	// fmt.Println(model.Xyz)
+	fmt.Println(model.Xyz)
 }
