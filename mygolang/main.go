@@ -1,22 +1,12 @@
 package main
 
-import (
-	"fmt"
-	"io/ioutil"
-	"log"
-	"net/http"
-)
+import "fmt"
+
+// import "model"
 
 func main() {
-
-	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		log.Println("Hello World")
-		d, err := ioutil.ReadAll(r.Body)
-		if err != nil {
-			panic(err)
-		}
-		fmt.Fprintf(w, "Hello %s", d)
-	})
-	http.ListenAndServe(":8000", nil)
-
+	var abc = 10
+	fmt.Println(abc)
+	fmt.Println(lmn)
+	// fmt.Println(model.Xyz)
 }

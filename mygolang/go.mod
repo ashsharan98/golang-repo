@@ -1,3 +1,3 @@
-module first
+module mygolang
 
 go 1.19
